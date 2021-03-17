@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*Header*/
+.nav-container {
+  background-color: #1c2541;
+  position: relative;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #56fffc;
+}
+
+.nav-container a:hover {
+  list-style-type: square;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+header .logo:hover {
+  color: #ffffff;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 11px 20px;
+  text-transform: uppercase;
+}
+
+header ul a:hover {
+  color: #ffffff;
+  text-decoration: line-through;
+}
+
+header ul li {
+  list-style: none;
+}
+
+/*Main Page code*/
+.main-page {
+  height: 100vh;
+  background-color: #1c2541;
+}
+
+.main-page-text {
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+
+.main-page-text h1,
+.main-page-text h2,
+.main-page-text h3 {
+  padding-top: 20px;
+}
+
+.main-page-text h1 {
+  font-size: 75px;
+  color: #56fffc;
+}
+
+.main-page-text h3 {
+  font-size: 40px;
+  color: #3a506b;
+}
+
+.main-page-text h2 {
+  font-size: 50px;
+  color: #56fffc;
+}
+
+.main-page-background {
+  position: relative;
+}
+
+.main-page-background .triangle1main {
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 600px solid #3a506b;
+  position: relative;
+  right: 330px;
+  bottom: 125px;
+}
+
+.main-page-background .circle1main {
+  width: 230px;
+  height: 230px;
+  background-color: #5bc0be;
+  border-radius: 200px;
+  position: absolute;
+  left: 60px;
+  top: 150px;
+}
+
+.main-page-background .triangle2main {
+  width: 0;
+  height: 0;
+  border-left: 400px solid transparent;
+  border-bottom: 740px solid #5bc0be;
+  position: absolute;
+  right: 0;
+  bottom: 123px;
+}
+
+.main-page-background .circle2main {
+  width: 230px;
+  height: 230px;
+  background-color: #0b132b;
+  border-radius: 200px;
+  position: absolute;
+  right: 25px;
+  bottom: 550px;
+}
+/*# sourceMappingURL=style.css.map */

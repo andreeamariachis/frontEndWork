@@ -1,0 +1,76 @@
+/*Main Page code*/
+
+$heightWeightShapes: 230px;
+$blueColorShape: #5bc0be;
+$darkColorShape: #0b132b;
+
+.main-page {
+  height: 100vh;
+  background-color: $colorBackground;
+}
+
+.main-page-text {
+  text-align: center;
+  position: relative;
+  top: 20%;
+
+  h1,
+  h2,
+  h3 {
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 75px;
+    color: $colorFonts;
+  }
+  h3 {
+    font-size: 40px;
+    color: $colorLighterGray;
+  }
+  h2 {
+    font-size: 50px;
+    color: $colorFonts;
+  }
+}
+
+.main-page-background {
+  position: relative;
+  .triangle1main {
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 600px solid #3a506b;
+    position: relative;
+    right: 330px;
+    bottom: 125px;
+  }
+  .circle1main {
+    width: $heightWeightShapes;
+    height: $heightWeightShapes;
+    background-color: $blueColorShape;
+    border-radius: 200px;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+  }
+  .triangle2main {
+    width: 0;
+    height: 0;
+    border-left: 400px solid transparent;
+    border-bottom: 740px solid $blueColorShape;
+    position: absolute;
+    right: 0;
+    bottom: 123px;
+  }
+  .circle2main {
+    width: $heightWeightShapes;
+    height: $heightWeightShapes;
+    background-color: $darkColorShape;
+    border-radius: 200px;
+    position: absolute;
+    right: 25px;
+    bottom: 550px;
+  }
+}

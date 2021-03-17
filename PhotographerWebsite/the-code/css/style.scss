@@ -1,0 +1,19 @@
+// variables
+$colorBackground: #1c2541;
+$colorFonts: #56fffc;
+$colorDarker: #0b132b;
+$colorLighterGray: #3a506b;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  max-width: 20px;
+}
+
+@import "navbar";
+@import "homesection";
+@import "portofolio";
